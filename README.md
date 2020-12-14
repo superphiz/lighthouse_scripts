@@ -13,7 +13,7 @@ printf 'Do you want to stop the lighthouse beacon chain and validator to update 
 
 #systemctl stop lighthousevalidator
 
-#systemctl stop lighthhousebeacon
+#systemctl stop lighthousebeacon
 
 printf 'Do you want to apply the update?[Y/n]';
 
