@@ -4,7 +4,7 @@ BLUE='\033[0;34m'
 YELLOW='\033[1;33m'
 NC='\033[0m' # No Color
 
-printf "Run this as a normal user without sudo because it uses home directories";
+printf "Run this as a normal user without sudo because it uses home directories, know that you're going to miss attestations when you update, best to put it off as long as possible.";
 
 printf "Go here ${BLUE}https://github.com/sigp/lighthouse/releases${NC}, copy the link for ${YELLOW}x86_64-unknown-linux-gnu-portable${NC}.tar.gz
 
